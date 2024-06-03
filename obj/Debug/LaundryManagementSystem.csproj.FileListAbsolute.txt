@@ -1,0 +1,98 @@
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.exe.config
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.exe
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.pdb
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.DASHBOARD.resources
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.dashboardMenu.resources
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.LoginHomepage.resources
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Properties.Resources.resources
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.GenerateResource.cache
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.exe
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.pdb
+C:\Users\PCB\source\repos\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Form1.resources
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Dashboard.resources
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.dashboardMenu.resources
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.MachineList.resources
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Payment.resources
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.SignUp.resources
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.LoginHomepage.resources
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Properties.Resources.resources
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.GenerateResource.cache
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.exe
+C:\Users\PCB\Source\Repos\lomiituu\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.pdb
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.CheckOut.resources
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Dashboard.resources
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.dashboardMenu.resources
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.LogOut.resources
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.MachineList.resources
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Payment.resources
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.SignUp.resources
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.LoginHomepage.resources
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Properties.Resources.resources
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.GenerateResource.cache
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.exe
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.pdb
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.exe.config
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.exe
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.pdb
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UserControl1.resources
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UserControl2.resources
+C:\Users\James Carrascal\Source\Repos\LaundryniPlato\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.CashPayment.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.exe.config
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.exe
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.pdb
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.CashPayment.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.CheckOut.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Dashboard.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.dashboardMenu.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.LogOut.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.MachineList.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Payment.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.SignUp.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.LoginHomepage.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Properties.Resources.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UserControl1.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UserControl2.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.GenerateResource.cache
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.exe
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.pdb
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UserControl3payment.resources
+C:\Users\PCB\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UClogout.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.exe.config
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.exe
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\bin\Debug\LaundryManagementSystem.pdb
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.CashPayment.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.CheckOut.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Dashboard.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.dashboardMenu.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.LogOut.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.MachineList.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Payment.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.SignUp.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.LoginHomepage.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Properties.Resources.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UClogout.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UserControl1.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UserControl2.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UserControl3payment.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.GenerateResource.cache
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.exe
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.pdb
+C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\bin\Debug\Database2.mdf
+C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\bin\Debug\Database2_log.ldf
+C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UCdashboard.resources
+C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UCadmin.resources
+C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UserControl3.resources
+C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UCcustomer.resources
+C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UCmachinelist.resources
+C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UserControl4.resources
+C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UCpayment1.resources
