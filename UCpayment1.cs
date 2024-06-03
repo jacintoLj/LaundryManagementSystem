@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace LaundryManagementSystem
 {
-    public partial class UCpayment1 : UserControl
+    public partial class UCpayment1 :  Payment 
     {
         public UCpayment1()
         {
             InitializeComponent();
         }
 
-        public string CNameP { get; private set; }
+        public string CName { get; private set; }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -36,20 +36,15 @@ namespace LaundryManagementSystem
 
         private void computeChange_Click(object sender, EventArgs e )
         {
-          ;
+          
             double recievePayment = double.Parse(RPayment.Text);
             double totalBalance = double.Parse(textBox2.Text);
             double change = recievePayment - totalBalance;
             label5.Text = RPayment.Text;
             label6.Text = textBox2.Text;
             label7.Text = Convert.ToString(change);
-            MessageBox.Show("Transaction Complete");
-            MessageBox.Show("\tRECIEPT" +
-                "\n\n\n Customer Name: " + NameMo.Text +
-                "\n\n\Order ID: " + IDMo.Text +
-                "\n\n\nPayement Recieved:" + RPayment.Text +
-                 "\n\n\nTotal Balance:" + textBox2.Text + 
-                "\n\n\nChange: " + change );
+            
+
         }
 
         

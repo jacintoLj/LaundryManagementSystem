@@ -50,5 +50,10 @@ namespace LaundryManagementSystem
             DB.Show();
             this.Hide();
         }
+
+        private void Cname_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -18,18 +18,14 @@ namespace LaundryManagementSystem
         }
        
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            UCpayment1 UCpayment1 = new UCpayment1();
+            UserControl4 CashPayment = new UserControl4();
             this.Show();
-            UCpayment1.Dock = DockStyle.Fill;
+            CashPayment.Dock = DockStyle.Fill;
             panel1.Controls.Clear();
-            panel1.Controls.Add(UCpayment1);
-            UCpayment1.BringToFront();
-
-
+            panel1.Controls.Add(value: CashPayment);
+            CashPayment.BringToFront();
         }
-
-       
     }
 }

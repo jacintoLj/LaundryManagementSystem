@@ -96,3 +96,4 @@ C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\L
 C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UCmachinelist.resources
 C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UserControl4.resources
 C:\Users\user\source\repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UCpayment1.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Receipt.resources

@@ -40,10 +40,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Items = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.TotalCost = new System.Windows.Forms.Label();
             this.ListOfProducts = new System.Windows.Forms.Label();
             this.dateTimePickerOrders = new System.Windows.Forms.DateTimePicker();
@@ -52,17 +54,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.CustomerOrderID = new System.Windows.Forms.TextBox();
-            this.CustomerNamePayment = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Cname = new System.Windows.Forms.TextBox();
             this.PanelCategories.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.machineIconHome)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // PanelCategories
@@ -188,7 +188,7 @@
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.CustomerOrderID);
-            this.panel1.Controls.Add(this.CustomerNamePayment);
+            this.panel1.Controls.Add(this.Cname);
             this.panel1.Location = new System.Drawing.Point(75, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(745, 456);
@@ -221,6 +221,17 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(285, 229);
             this.panel3.TabIndex = 8;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(19, 7);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(65, 62);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // pictureBox3
             // 
@@ -264,6 +275,14 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(363, 195);
             this.panel2.TabIndex = 6;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(19, 72);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(138, 29);
+            this.textBox1.TabIndex = 10;
             // 
             // TotalCost
             // 
@@ -343,32 +362,14 @@
             this.CustomerOrderID.Size = new System.Drawing.Size(217, 29);
             this.CustomerOrderID.TabIndex = 1;
             // 
-            // CustomerNamePayment
+            // Cname
             // 
-            this.CustomerNamePayment.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CustomerNamePayment.Location = new System.Drawing.Point(38, 63);
-            this.CustomerNamePayment.Name = "CustomerNamePayment";
-            this.CustomerNamePayment.Size = new System.Drawing.Size(217, 29);
-            this.CustomerNamePayment.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(19, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(65, 62);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(19, 72);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(138, 29);
-            this.textBox1.TabIndex = 10;
+            this.Cname.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cname.Location = new System.Drawing.Point(38, 63);
+            this.Cname.Name = "Cname";
+            this.Cname.Size = new System.Drawing.Size(217, 29);
+            this.Cname.TabIndex = 0;
+            this.Cname.TextChanged += new System.EventHandler(this.Cname_TextChanged);
             // 
             // Payment
             // 
@@ -386,11 +387,11 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -409,7 +410,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox CustomerOrderID;
-        private System.Windows.Forms.TextBox CustomerNamePayment;
+        private System.Windows.Forms.TextBox Cname;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label TotalCost;
         private System.Windows.Forms.Label ListOfProducts;
