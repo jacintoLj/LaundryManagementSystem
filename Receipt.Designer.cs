@@ -35,17 +35,17 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.receiptt = new System.Windows.Forms.Label();
-            this.OrderIDReceiptLabel = new System.Windows.Forms.Label();
-            this.PaymentReceivedReceiptLabel = new System.Windows.Forms.Label();
-            this.TotalBalanceReceiptLabel = new System.Windows.Forms.Label();
-            this.ChangeReceiptLabel = new System.Windows.Forms.Label();
+            this.CName = new System.Windows.Forms.Label();
+            this.OID = new System.Windows.Forms.Label();
+            this.PRec = new System.Windows.Forms.Label();
+            this.TBal = new System.Windows.Forms.Label();
+            this.ChangeR = new System.Windows.Forms.Label();
             this.OkayButton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,75 +111,67 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Change:";
             // 
-            // receiptt
+            // CName
             // 
-            this.receiptt.AutoSize = true;
-            this.receiptt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.receiptt.Location = new System.Drawing.Point(176, 96);
-            this.receiptt.Name = "receiptt";
-            this.receiptt.Size = new System.Drawing.Size(61, 13);
-            this.receiptt.TabIndex = 6;
-            this.receiptt.Text = "Name Here";
+            this.CName.AutoSize = true;
+            this.CName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CName.Location = new System.Drawing.Point(176, 96);
+            this.CName.Name = "CName";
+            this.CName.Size = new System.Drawing.Size(61, 13);
+            this.CName.TabIndex = 6;
+            this.CName.Text = "Name Here";
             // 
-            // OrderIDReceiptLabel
+            // OID
             // 
-            this.OrderIDReceiptLabel.AutoSize = true;
-            this.OrderIDReceiptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OrderIDReceiptLabel.Location = new System.Drawing.Point(176, 146);
-            this.OrderIDReceiptLabel.Name = "OrderIDReceiptLabel";
-            this.OrderIDReceiptLabel.Size = new System.Drawing.Size(44, 13);
-            this.OrderIDReceiptLabel.TabIndex = 7;
-            this.OrderIDReceiptLabel.Text = "ID Here";
+            this.OID.AutoSize = true;
+            this.OID.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OID.Location = new System.Drawing.Point(176, 146);
+            this.OID.Name = "OID";
+            this.OID.Size = new System.Drawing.Size(44, 13);
+            this.OID.TabIndex = 7;
+            this.OID.Text = "ID Here";
             // 
-            // PaymentReceivedReceiptLabel
+            // PRec
             // 
-            this.PaymentReceivedReceiptLabel.AutoSize = true;
-            this.PaymentReceivedReceiptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PaymentReceivedReceiptLabel.Location = new System.Drawing.Point(154, 203);
-            this.PaymentReceivedReceiptLabel.Name = "PaymentReceivedReceiptLabel";
-            this.PaymentReceivedReceiptLabel.Size = new System.Drawing.Size(123, 13);
-            this.PaymentReceivedReceiptLabel.TabIndex = 8;
-            this.PaymentReceivedReceiptLabel.Text = "Payment Received Here";
+            this.PRec.AutoSize = true;
+            this.PRec.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PRec.Location = new System.Drawing.Point(154, 203);
+            this.PRec.Name = "PRec";
+            this.PRec.Size = new System.Drawing.Size(123, 13);
+            this.PRec.TabIndex = 8;
+            this.PRec.Text = "Payment Received Here";
             // 
-            // TotalBalanceReceiptLabel
+            // TBal
             // 
-            this.TotalBalanceReceiptLabel.AutoSize = true;
-            this.TotalBalanceReceiptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TotalBalanceReceiptLabel.Location = new System.Drawing.Point(154, 268);
-            this.TotalBalanceReceiptLabel.Name = "TotalBalanceReceiptLabel";
-            this.TotalBalanceReceiptLabel.Size = new System.Drawing.Size(99, 13);
-            this.TotalBalanceReceiptLabel.TabIndex = 9;
-            this.TotalBalanceReceiptLabel.Text = "Total Balance Here";
+            this.TBal.AutoSize = true;
+            this.TBal.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TBal.Location = new System.Drawing.Point(154, 268);
+            this.TBal.Name = "TBal";
+            this.TBal.Size = new System.Drawing.Size(99, 13);
+            this.TBal.TabIndex = 9;
+            this.TBal.Text = "Total Balance Here";
             // 
-            // ChangeReceiptLabel
+            // ChangeR
             // 
-            this.ChangeReceiptLabel.AutoSize = true;
-            this.ChangeReceiptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChangeReceiptLabel.Location = new System.Drawing.Point(167, 329);
-            this.ChangeReceiptLabel.Name = "ChangeReceiptLabel";
-            this.ChangeReceiptLabel.Size = new System.Drawing.Size(70, 13);
-            this.ChangeReceiptLabel.TabIndex = 10;
-            this.ChangeReceiptLabel.Text = "Change Here";
+            this.ChangeR.AutoSize = true;
+            this.ChangeR.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChangeR.Location = new System.Drawing.Point(167, 329);
+            this.ChangeR.Name = "ChangeR";
+            this.ChangeR.Size = new System.Drawing.Size(70, 13);
+            this.ChangeR.TabIndex = 10;
+            this.ChangeR.Text = "Change Here";
             // 
             // OkayButton
             // 
             this.OkayButton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.OkayButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OkayButton.Location = new System.Drawing.Point(199, 483);
+            this.OkayButton.Location = new System.Drawing.Point(199, 475);
             this.OkayButton.Name = "OkayButton";
             this.OkayButton.Size = new System.Drawing.Size(98, 29);
             this.OkayButton.TabIndex = 11;
             this.OkayButton.Text = "Okay";
             this.OkayButton.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(76, 383);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(161, 50);
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
+            this.OkayButton.Click += new System.EventHandler(this.OkayButton_Click);
             // 
             // label7
             // 
@@ -221,6 +213,15 @@
             this.label10.Text = "---------------------------------------------------------------------------------" +
     "------------";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(76, 383);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(161, 50);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
             // Receipt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -232,11 +233,11 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.OkayButton);
-            this.Controls.Add(this.ChangeReceiptLabel);
-            this.Controls.Add(this.TotalBalanceReceiptLabel);
-            this.Controls.Add(this.PaymentReceivedReceiptLabel);
-            this.Controls.Add(this.OrderIDReceiptLabel);
-            this.Controls.Add(this.receiptt);
+            this.Controls.Add(this.ChangeR);
+            this.Controls.Add(this.TBal);
+            this.Controls.Add(this.PRec);
+            this.Controls.Add(this.OID);
+            this.Controls.Add(this.CName);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -245,6 +246,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Receipt";
             this.Text = "Receipt";
+            this.Load += new System.EventHandler(this.Receipt_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -259,11 +261,11 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label receiptt;
-        private System.Windows.Forms.Label OrderIDReceiptLabel;
-        private System.Windows.Forms.Label PaymentReceivedReceiptLabel;
-        private System.Windows.Forms.Label TotalBalanceReceiptLabel;
-        private System.Windows.Forms.Label ChangeReceiptLabel;
+        private System.Windows.Forms.Label CName;
+        private System.Windows.Forms.Label OID;
+        private System.Windows.Forms.Label PRec;
+        private System.Windows.Forms.Label TBal;
+        private System.Windows.Forms.Label ChangeR;
         private System.Windows.Forms.Button OkayButton;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label7;

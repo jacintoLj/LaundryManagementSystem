@@ -34,7 +34,6 @@
             this.machineIconHome = new System.Windows.Forms.PictureBox();
             this.LogOutButton = new System.Windows.Forms.Button();
             this.AdminButton = new System.Windows.Forms.Button();
-            this.SettingsButton = new System.Windows.Forms.Button();
             this.ClientButton = new System.Windows.Forms.Button();
             this.CartButton = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -72,7 +71,6 @@
             this.PanelCategories.Controls.Add(this.machineIconHome);
             this.PanelCategories.Controls.Add(this.LogOutButton);
             this.PanelCategories.Controls.Add(this.AdminButton);
-            this.PanelCategories.Controls.Add(this.SettingsButton);
             this.PanelCategories.Controls.Add(this.ClientButton);
             this.PanelCategories.Controls.Add(this.CartButton);
             this.PanelCategories.ForeColor = System.Drawing.Color.White;
@@ -88,7 +86,7 @@
             this.ButtonPayment.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonPayment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonPayment.ForeColor = System.Drawing.Color.Gray;
-            this.ButtonPayment.Location = new System.Drawing.Point(23, 201);
+            this.ButtonPayment.Location = new System.Drawing.Point(24, 237);
             this.ButtonPayment.Name = "ButtonPayment";
             this.ButtonPayment.Size = new System.Drawing.Size(25, 25);
             this.ButtonPayment.TabIndex = 13;
@@ -130,24 +128,11 @@
             this.AdminButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.AdminButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.AdminButton.ForeColor = System.Drawing.SystemColors.Window;
-            this.AdminButton.Location = new System.Drawing.Point(23, 318);
+            this.AdminButton.Location = new System.Drawing.Point(23, 304);
             this.AdminButton.Name = "AdminButton";
             this.AdminButton.Size = new System.Drawing.Size(29, 29);
             this.AdminButton.TabIndex = 5;
             this.AdminButton.UseVisualStyleBackColor = false;
-            // 
-            // SettingsButton
-            // 
-            this.SettingsButton.BackColor = System.Drawing.Color.Turquoise;
-            this.SettingsButton.BackgroundImage = global::LaundryManagementSystem.Properties.Resources.icons8_settings_48__1_;
-            this.SettingsButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.SettingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SettingsButton.ForeColor = System.Drawing.Color.Gray;
-            this.SettingsButton.Location = new System.Drawing.Point(23, 257);
-            this.SettingsButton.Name = "SettingsButton";
-            this.SettingsButton.Size = new System.Drawing.Size(25, 25);
-            this.SettingsButton.TabIndex = 3;
-            this.SettingsButton.UseVisualStyleBackColor = false;
             // 
             // ClientButton
             // 
@@ -169,7 +154,7 @@
             this.CartButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CartButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CartButton.ForeColor = System.Drawing.Color.Cyan;
-            this.CartButton.Location = new System.Drawing.Point(23, 147);
+            this.CartButton.Location = new System.Drawing.Point(23, 167);
             this.CartButton.Name = "CartButton";
             this.CartButton.Size = new System.Drawing.Size(26, 26);
             this.CartButton.TabIndex = 2;
@@ -402,7 +387,6 @@
         private System.Windows.Forms.PictureBox machineIconHome;
         private System.Windows.Forms.Button LogOutButton;
         private System.Windows.Forms.Button AdminButton;
-        private System.Windows.Forms.Button SettingsButton;
         private System.Windows.Forms.Button ClientButton;
         private System.Windows.Forms.Button CartButton;
         private System.Windows.Forms.Panel PanelCategories;

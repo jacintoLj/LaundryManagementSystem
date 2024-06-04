@@ -38,12 +38,11 @@ namespace LaundryManagementSystem
                 MessageBox.Show("Invalid username or password. Please try again");
             }
 
+        private void LoginHomepage_Load(object sender, EventArgs e)
+        {
 
-
-
-
-           
         }
+    }
 
        
     }

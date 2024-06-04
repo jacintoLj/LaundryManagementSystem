@@ -21,5 +21,14 @@ namespace LaundryManagementSystem
         {
             throw new NotImplementedException();
         }
+
+        private void YesLogoutButton_Click(object sender, EventArgs e)
+        {
+            LoginHomepage home = new LoginHomepage();
+            home.Show();
+            this.Hide();
+
+
+        }
     }
 }

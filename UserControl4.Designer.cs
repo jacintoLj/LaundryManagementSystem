@@ -33,10 +33,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.NameReceiptLabel = new System.Windows.Forms.TextBox();
+            this.NameReceipt = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.CustomerID = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.TBalance = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -62,7 +62,7 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(725, 558);
+            this.panel1.Size = new System.Drawing.Size(695, 531);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -70,10 +70,10 @@
             this.panel2.BackColor = System.Drawing.Color.White;
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label8);
-            this.panel2.Controls.Add(this.NameReceiptLabel);
+            this.panel2.Controls.Add(this.NameReceipt);
             this.panel2.Controls.Add(this.textBox1);
             this.panel2.Controls.Add(this.label7);
-            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.CustomerID);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.TBalance);
             this.panel2.Controls.Add(this.label5);
@@ -86,9 +86,9 @@
             this.panel2.Controls.Add(this.RPayment);
             this.panel2.Controls.Add(this.computeChange);
             this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(28, 43);
+            this.panel2.Location = new System.Drawing.Point(-2, -4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(660, 377);
+            this.panel2.Size = new System.Drawing.Size(725, 558);
             this.panel2.TabIndex = 22;
             // 
             // label9
@@ -113,13 +113,14 @@
             this.label8.TabIndex = 24;
             this.label8.Text = "Recieved Payment";
             // 
-            // NameReceiptLabel
+            // NameReceipt
             // 
-            this.NameReceiptLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NameReceiptLabel.Location = new System.Drawing.Point(79, 69);
-            this.NameReceiptLabel.Name = "NameReceiptLabel";
-            this.NameReceiptLabel.Size = new System.Drawing.Size(175, 26);
-            this.NameReceiptLabel.TabIndex = 23;
+            this.NameReceipt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameReceipt.Location = new System.Drawing.Point(79, 69);
+            this.NameReceipt.Name = "NameReceipt";
+            this.NameReceipt.Size = new System.Drawing.Size(175, 26);
+            this.NameReceipt.TabIndex = 23;
+            this.NameReceipt.TextChanged += new System.EventHandler(this.NameReceipt_TextChanged);
             // 
             // textBox1
             // 
@@ -140,13 +141,13 @@
             this.label7.TabIndex = 19;
             this.label7.Text = "00.00";
             // 
-            // textBox2
+            // CustomerID
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(356, 67);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(174, 28);
-            this.textBox2.TabIndex = 20;
+            this.CustomerID.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerID.Location = new System.Drawing.Point(356, 67);
+            this.CustomerID.Name = "CustomerID";
+            this.CustomerID.Size = new System.Drawing.Size(174, 28);
+            this.CustomerID.TabIndex = 20;
             // 
             // label6
             // 
@@ -183,12 +184,13 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.button1.Location = new System.Drawing.Point(17, 10);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 12;
-            this.button1.Text = "back";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Text = "Back";
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label4
@@ -281,7 +283,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Name = "UserControl4";
-            this.Size = new System.Drawing.Size(725, 558);
+            this.Size = new System.Drawing.Size(694, 532);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -295,7 +297,7 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label TBalance;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox CustomerID;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -304,14 +306,14 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button computeChange;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
-        public System.Windows.Forms.TextBox NameReceiptLabel;
+        public System.Windows.Forms.TextBox NameReceipt;
         public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.Panel panel2;
     }
 }

@@ -48,7 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -90,6 +92,18 @@
     </Compile>
     <Compile Include="LogOut.Designer.cs">
       <DependentUpon>LogOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine1.Designer.cs">
+      <DependentUpon>Machine1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine2.Designer.cs">
+      <DependentUpon>Machine2.cs</DependentUpon>
     </Compile>
     <Compile Include="MachineList.cs">
       <SubType>Form</SubType>
@@ -147,6 +161,12 @@
     <Compile Include="UClogout.Designer.cs">
       <DependentUpon>UClogout.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCmachine1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCmachine1.Designer.cs">
+      <DependentUpon>UCmachine1.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCmachinelist.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -189,6 +209,12 @@
     <Compile Include="UserControl4.Designer.cs">
       <DependentUpon>UserControl4.cs</DependentUpon>
     </Compile>
+    <Compile Include="UChomepage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UChomepage.Designer.cs">
+      <DependentUpon>UChomepage.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CashPayment.resx">
       <DependentUpon>CashPayment.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -204,6 +230,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LogOut.resx">
       <DependentUpon>LogOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine1.resx">
+      <DependentUpon>Machine1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine2.resx">
+      <DependentUpon>Machine2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MachineList.resx">
       <DependentUpon>MachineList.cs</DependentUpon>
@@ -242,6 +274,9 @@
     <EmbeddedResource Include="UClogout.resx">
       <DependentUpon>UClogout.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UCmachine1.resx">
+      <DependentUpon>UCmachine1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UCmachinelist.resx">
       <DependentUpon>UCmachinelist.cs</DependentUpon>
     </EmbeddedResource>
@@ -262,6 +297,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControl4.resx">
       <DependentUpon>UserControl4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UChomepage.resx">
+      <DependentUpon>UChomepage.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -25,12 +25,23 @@ namespace LaundryManagementSystem
         private void computeChange_Click(object sender, EventArgs e)
         {
 
+            
             double recievePayment = double.Parse(RPayment.Text);
             double totalBalance = double.Parse(textBox1.Text);
             double change = (recievePayment) - (totalBalance);
             label5.Text = RPayment.Text;
             label6.Text = textBox1.Text;
-            this.label7.Text = Convert.ToString(change);
+            label7.Text = Convert.ToString(change);
+            Receipt receipt = new Receipt();
+            receipt.Show();
+            
+
+
+
+ 
+            
+
+            
 
 
         }
@@ -43,6 +54,11 @@ namespace LaundryManagementSystem
             panel2.Controls.Clear();
             panel2.Controls.Add(UserControl3payment);
             UserControl3payment.BringToFront();
+        }
+
+        private void NameReceipt_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
