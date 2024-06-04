@@ -63,6 +63,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ADMINSETTINGS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ADMINSETTINGS.Designer.cs">
+      <DependentUpon>ADMINSETTINGS.cs</DependentUpon>
+    </Compile>
     <Compile Include="CashPayment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,30 @@
     </Compile>
     <Compile Include="Machine2.Designer.cs">
       <DependentUpon>Machine2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine3.Designer.cs">
+      <DependentUpon>Machine3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine4.Designer.cs">
+      <DependentUpon>Machine4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine5.Designer.cs">
+      <DependentUpon>Machine5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Machine6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Machine6.Designer.cs">
+      <DependentUpon>Machine6.cs</DependentUpon>
     </Compile>
     <Compile Include="MachineList.cs">
       <SubType>Form</SubType>
@@ -215,6 +245,9 @@
     <Compile Include="UChomepage.Designer.cs">
       <DependentUpon>UChomepage.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ADMINSETTINGS.resx">
+      <DependentUpon>ADMINSETTINGS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CashPayment.resx">
       <DependentUpon>CashPayment.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -236,6 +269,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Machine2.resx">
       <DependentUpon>Machine2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine3.resx">
+      <DependentUpon>Machine3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine4.resx">
+      <DependentUpon>Machine4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine5.resx">
+      <DependentUpon>Machine5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Machine6.resx">
+      <DependentUpon>Machine6.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MachineList.resx">
       <DependentUpon>MachineList.cs</DependentUpon>

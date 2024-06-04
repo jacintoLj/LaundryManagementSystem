@@ -101,3 +101,8 @@ C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\L
 C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UCmachine1.resources
 C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.UChomepage.resources
 C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Machine2.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.ADMINSETTINGS.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Machine3.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Machine4.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Machine5.resources
+C:\Users\user\Source\Repos\LaundryniPlato3.0\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.Machine6.resources
