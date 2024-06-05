@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UClogout));
             this.panel1 = new System.Windows.Forms.Panel();
             this.NoLogoutButton = new System.Windows.Forms.Button();
-            this.YesLogoutButton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.YesLogoutButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,6 +40,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.PowderBlue;
             this.panel1.Controls.Add(this.NoLogoutButton);
+            this.panel1.Controls.Add(this.YesLogoutButton);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(221, 92);
             this.panel1.Name = "panel1";
@@ -59,20 +60,6 @@
             this.NoLogoutButton.Text = "No";
             this.NoLogoutButton.UseVisualStyleBackColor = false;
             // 
-            // YesLogoutButton
-            // 
-            this.YesLogoutButton.BackColor = System.Drawing.Color.White;
-            this.YesLogoutButton.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.YesLogoutButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.YesLogoutButton.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.YesLogoutButton.Location = new System.Drawing.Point(271, 273);
-            this.YesLogoutButton.Name = "YesLogoutButton";
-            this.YesLogoutButton.Size = new System.Drawing.Size(75, 23);
-            this.YesLogoutButton.TabIndex = 1;
-            this.YesLogoutButton.Text = "Yes";
-            this.YesLogoutButton.UseVisualStyleBackColor = false;
-            this.YesLogoutButton.Click += new System.EventHandler(this.YesLogoutButton_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -83,6 +70,20 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Do you want to log out?";
             // 
+            // YesLogoutButton
+            // 
+            this.YesLogoutButton.BackColor = System.Drawing.Color.White;
+            this.YesLogoutButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.YesLogoutButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.YesLogoutButton.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.YesLogoutButton.Location = new System.Drawing.Point(50, 107);
+            this.YesLogoutButton.Name = "YesLogoutButton";
+            this.YesLogoutButton.Size = new System.Drawing.Size(75, 23);
+            this.YesLogoutButton.TabIndex = 1;
+            this.YesLogoutButton.Text = "Yes";
+            this.YesLogoutButton.UseVisualStyleBackColor = false;
+            this.YesLogoutButton.Click += new System.EventHandler(this.YesLogoutButton_Click);
+            // 
             // UClogout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -90,7 +91,6 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.YesLogoutButton);
             this.Name = "UClogout";
             this.Size = new System.Drawing.Size(735, 472);
             this.panel1.ResumeLayout(false);

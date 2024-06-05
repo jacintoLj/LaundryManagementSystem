@@ -238,7 +238,7 @@
             this.ClientSize = new System.Drawing.Size(709, 519);
             this.Controls.Add(this.panel2);
             this.Name = "CashPayment";
-            this.Text = "CashPayment";
+            this.Text = "z";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel1.ResumeLayout(false);

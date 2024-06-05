@@ -374,7 +374,7 @@
             this.Machine1Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Machine1Button.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Machine1Button.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Machine1Button.Location = new System.Drawing.Point(118, 176);
+            this.Machine1Button.Location = new System.Drawing.Point(97, 176);
             this.Machine1Button.Name = "Machine1Button";
             this.Machine1Button.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Machine1Button.Size = new System.Drawing.Size(75, 23);

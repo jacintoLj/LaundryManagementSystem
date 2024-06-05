@@ -42,6 +42,11 @@ namespace LaundryManagementSystem
         {
 
         }
+
+        private void Password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
        
