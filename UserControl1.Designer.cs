@@ -29,14 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserControl1));
-            this.Machine8Button = new System.Windows.Forms.Button();
-            this.Machine7Button = new System.Windows.Forms.Button();
-            this.Machine6Button = new System.Windows.Forms.Button();
-            this.Machine5Button = new System.Windows.Forms.Button();
-            this.Machine4Button = new System.Windows.Forms.Button();
-            this.Machine3Button = new System.Windows.Forms.Button();
-            this.Machine2Button = new System.Windows.Forms.Button();
-            this.Machine1Button = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -54,6 +46,14 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -62,135 +62,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // Machine8Button
-            // 
-            this.Machine8Button.BackColor = System.Drawing.Color.Turquoise;
-            this.Machine8Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Machine8Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Machine8Button.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Machine8Button.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Machine8Button.Location = new System.Drawing.Point(474, 408);
-            this.Machine8Button.Name = "Machine8Button";
-            this.Machine8Button.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Machine8Button.Size = new System.Drawing.Size(75, 23);
-            this.Machine8Button.TabIndex = 62;
-            this.Machine8Button.Text = "Avail";
-            this.Machine8Button.UseVisualStyleBackColor = false;
-            this.Machine8Button.Click += new System.EventHandler(this.Machine8Button_Click);
-            // 
-            // Machine7Button
-            // 
-            this.Machine7Button.BackColor = System.Drawing.Color.Turquoise;
-            this.Machine7Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Machine7Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Machine7Button.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Machine7Button.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Machine7Button.Location = new System.Drawing.Point(327, 408);
-            this.Machine7Button.Name = "Machine7Button";
-            this.Machine7Button.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Machine7Button.Size = new System.Drawing.Size(75, 23);
-            this.Machine7Button.TabIndex = 61;
-            this.Machine7Button.Text = "Avail";
-            this.Machine7Button.UseVisualStyleBackColor = false;
-            this.Machine7Button.Click += new System.EventHandler(this.Machine7Button_Click);
-            // 
-            // Machine6Button
-            // 
-            this.Machine6Button.BackColor = System.Drawing.Color.Turquoise;
-            this.Machine6Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Machine6Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Machine6Button.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Machine6Button.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Machine6Button.Location = new System.Drawing.Point(182, 408);
-            this.Machine6Button.Name = "Machine6Button";
-            this.Machine6Button.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Machine6Button.Size = new System.Drawing.Size(75, 23);
-            this.Machine6Button.TabIndex = 60;
-            this.Machine6Button.Text = "Avail";
-            this.Machine6Button.UseVisualStyleBackColor = false;
-            this.Machine6Button.Click += new System.EventHandler(this.Machine6Button_Click);
-            // 
-            // Machine5Button
-            // 
-            this.Machine5Button.BackColor = System.Drawing.Color.Turquoise;
-            this.Machine5Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Machine5Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Machine5Button.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Machine5Button.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Machine5Button.Location = new System.Drawing.Point(38, 408);
-            this.Machine5Button.Name = "Machine5Button";
-            this.Machine5Button.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Machine5Button.Size = new System.Drawing.Size(75, 23);
-            this.Machine5Button.TabIndex = 59;
-            this.Machine5Button.Text = "Avail";
-            this.Machine5Button.UseVisualStyleBackColor = false;
-            this.Machine5Button.Click += new System.EventHandler(this.Machine5Button_Click);
-            // 
-            // Machine4Button
-            // 
-            this.Machine4Button.BackColor = System.Drawing.Color.Turquoise;
-            this.Machine4Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Machine4Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Machine4Button.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Machine4Button.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Machine4Button.Location = new System.Drawing.Point(476, 174);
-            this.Machine4Button.Name = "Machine4Button";
-            this.Machine4Button.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Machine4Button.Size = new System.Drawing.Size(75, 23);
-            this.Machine4Button.TabIndex = 58;
-            this.Machine4Button.Text = "Avail";
-            this.Machine4Button.UseVisualStyleBackColor = false;
-            this.Machine4Button.Click += new System.EventHandler(this.Machine4Button_Click);
-            // 
-            // Machine3Button
-            // 
-            this.Machine3Button.BackColor = System.Drawing.Color.Turquoise;
-            this.Machine3Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Machine3Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Machine3Button.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Machine3Button.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Machine3Button.Location = new System.Drawing.Point(331, 174);
-            this.Machine3Button.Name = "Machine3Button";
-            this.Machine3Button.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Machine3Button.Size = new System.Drawing.Size(75, 23);
-            this.Machine3Button.TabIndex = 57;
-            this.Machine3Button.Text = "Avail";
-            this.Machine3Button.UseVisualStyleBackColor = false;
-            this.Machine3Button.Click += new System.EventHandler(this.Machine3Button_Click);
-            // 
-            // Machine2Button
-            // 
-            this.Machine2Button.BackColor = System.Drawing.Color.Turquoise;
-            this.Machine2Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Machine2Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Machine2Button.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Machine2Button.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Machine2Button.Location = new System.Drawing.Point(182, 174);
-            this.Machine2Button.Name = "Machine2Button";
-            this.Machine2Button.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Machine2Button.Size = new System.Drawing.Size(75, 23);
-            this.Machine2Button.TabIndex = 56;
-            this.Machine2Button.Text = "Avail";
-            this.Machine2Button.UseVisualStyleBackColor = false;
-            this.Machine2Button.Click += new System.EventHandler(this.Machine2Button_Click);
-            // 
-            // Machine1Button
-            // 
-            this.Machine1Button.BackColor = System.Drawing.Color.Turquoise;
-            this.Machine1Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Machine1Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Machine1Button.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Machine1Button.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Machine1Button.Location = new System.Drawing.Point(187, 228);
-            this.Machine1Button.Name = "Machine1Button";
-            this.Machine1Button.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Machine1Button.Size = new System.Drawing.Size(75, 23);
-            this.Machine1Button.TabIndex = 55;
-            this.Machine1Button.Text = "Avail";
-            this.Machine1Button.UseVisualStyleBackColor = false;
-            this.Machine1Button.Click += new System.EventHandler(this.Machine1Button_Click);
             // 
             // label7
             // 
@@ -380,10 +253,91 @@
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.comboBox8);
+            this.panel1.Controls.Add(this.comboBox7);
+            this.panel1.Controls.Add(this.comboBox6);
+            this.panel1.Controls.Add(this.comboBox5);
+            this.panel1.Controls.Add(this.comboBox4);
+            this.panel1.Controls.Add(this.comboBox3);
+            this.panel1.Controls.Add(this.comboBox2);
+            this.panel1.Controls.Add(this.comboBox1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(768, 475);
             this.panel1.TabIndex = 63;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(17, 174);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(96, 28);
+            this.comboBox1.TabIndex = 0;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(166, 174);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(96, 28);
+            this.comboBox2.TabIndex = 1;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(310, 174);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(96, 28);
+            this.comboBox3.TabIndex = 2;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(455, 174);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(96, 28);
+            this.comboBox4.TabIndex = 3;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(17, 408);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(96, 28);
+            this.comboBox5.TabIndex = 4;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Location = new System.Drawing.Point(159, 408);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(96, 28);
+            this.comboBox6.TabIndex = 5;
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Location = new System.Drawing.Point(306, 408);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(96, 28);
+            this.comboBox7.TabIndex = 6;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Location = new System.Drawing.Point(453, 408);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(96, 28);
+            this.comboBox8.TabIndex = 7;
             // 
             // UserControl1
             // 
@@ -391,14 +345,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Controls.Add(this.Machine8Button);
-            this.Controls.Add(this.Machine7Button);
-            this.Controls.Add(this.Machine6Button);
-            this.Controls.Add(this.Machine5Button);
-            this.Controls.Add(this.Machine4Button);
-            this.Controls.Add(this.Machine3Button);
-            this.Controls.Add(this.Machine2Button);
-            this.Controls.Add(this.Machine1Button);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -426,21 +372,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button Machine8Button;
-        private System.Windows.Forms.Button Machine7Button;
-        private System.Windows.Forms.Button Machine6Button;
-        private System.Windows.Forms.Button Machine5Button;
-        private System.Windows.Forms.Button Machine4Button;
-        private System.Windows.Forms.Button Machine3Button;
-        private System.Windows.Forms.Button Machine2Button;
-        private System.Windows.Forms.Button Machine1Button;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
@@ -458,5 +396,13 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.ComboBox comboBox5;
     }
 }

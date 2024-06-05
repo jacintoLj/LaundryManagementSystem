@@ -81,7 +81,7 @@
             this.chooseAct.Name = "chooseAct";
             this.chooseAct.Size = new System.Drawing.Size(149, 28);
             this.chooseAct.TabIndex = 2;
-            this.chooseAct.Text = "      -Action Here-";
+            this.chooseAct.Text = "       -Available-";
             this.chooseAct.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label2

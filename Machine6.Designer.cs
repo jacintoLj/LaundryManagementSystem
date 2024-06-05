@@ -70,7 +70,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(196, 25);
             this.label1.TabIndex = 16;
-            this.label1.Text = "Laundry Machine 2";
+            this.label1.Text = "Laundry Machine 6";
             // 
             // panel1
             // 

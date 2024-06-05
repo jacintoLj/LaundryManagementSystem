@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -139,6 +140,12 @@ namespace LaundryManagementSystem
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            ArrayList arrayList = new ArrayList();
 
         }
     }
