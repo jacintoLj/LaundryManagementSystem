@@ -42,7 +42,7 @@ namespace LaundryManagementSystem
         }
         private void chooseAct_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            //asdasdasdasd//
         }
     }
 }

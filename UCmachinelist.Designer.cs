@@ -33,7 +33,6 @@
             this.Machine7Button = new System.Windows.Forms.Button();
             this.Machine6Button = new System.Windows.Forms.Button();
             this.Machine5Button = new System.Windows.Forms.Button();
-            this.Machine4Button = new System.Windows.Forms.Button();
             this.Machine3Button = new System.Windows.Forms.Button();
             this.Machine2Button = new System.Windows.Forms.Button();
             this.Machine1Button = new System.Windows.Forms.Button();
@@ -54,14 +53,15 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.comboBox6 = new System.Windows.Forms.ComboBox();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
             this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -137,21 +137,6 @@
             this.Machine5Button.UseVisualStyleBackColor = false;
             this.Machine5Button.Click += new System.EventHandler(this.Machine5Button_Click);
             // 
-            // Machine4Button
-            // 
-            this.Machine4Button.BackColor = System.Drawing.Color.Turquoise;
-            this.Machine4Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Machine4Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Machine4Button.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Machine4Button.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Machine4Button.Location = new System.Drawing.Point(452, 164);
-            this.Machine4Button.Name = "Machine4Button";
-            this.Machine4Button.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.Machine4Button.Size = new System.Drawing.Size(96, 23);
-            this.Machine4Button.TabIndex = 58;
-            this.Machine4Button.UseVisualStyleBackColor = false;
-            this.Machine4Button.Click += new System.EventHandler(this.Machine4Button_Click);
-            // 
             // Machine3Button
             // 
             this.Machine3Button.BackColor = System.Drawing.Color.Turquoise;
@@ -159,7 +144,7 @@
             this.Machine3Button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Machine3Button.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Machine3Button.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.Machine3Button.Location = new System.Drawing.Point(307, 164);
+            this.Machine3Button.Location = new System.Drawing.Point(303, 164);
             this.Machine3Button.Name = "Machine3Button";
             this.Machine3Button.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.Machine3Button.Size = new System.Drawing.Size(96, 23);
@@ -386,6 +371,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.comboBox8);
             this.panel1.Controls.Add(this.comboBox7);
             this.panel1.Controls.Add(this.comboBox6);
@@ -398,7 +384,6 @@
             this.panel1.Controls.Add(this.Machine7Button);
             this.panel1.Controls.Add(this.Machine6Button);
             this.panel1.Controls.Add(this.Machine5Button);
-            this.panel1.Controls.Add(this.Machine4Button);
             this.panel1.Controls.Add(this.Machine3Button);
             this.panel1.Controls.Add(this.Machine2Button);
             this.panel1.Controls.Add(this.Machine1Button);
@@ -423,53 +408,13 @@
             this.panel1.Size = new System.Drawing.Size(725, 558);
             this.panel1.TabIndex = 63;
             // 
-            // comboBox1
+            // comboBox8
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(14, 202);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(96, 21);
-            this.comboBox1.TabIndex = 63;
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(163, 202);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(96, 21);
-            this.comboBox2.TabIndex = 64;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(303, 202);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(96, 21);
-            this.comboBox3.TabIndex = 65;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(452, 202);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(96, 21);
-            this.comboBox4.TabIndex = 66;
-            // 
-            // comboBox5
-            // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(14, 427);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(96, 21);
-            this.comboBox5.TabIndex = 67;
-            // 
-            // comboBox6
-            // 
-            this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(158, 427);
-            this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(96, 21);
-            this.comboBox6.TabIndex = 68;
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Location = new System.Drawing.Point(448, 427);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(96, 21);
+            this.comboBox8.TabIndex = 70;
             // 
             // comboBox7
             // 
@@ -479,13 +424,68 @@
             this.comboBox7.Size = new System.Drawing.Size(96, 21);
             this.comboBox7.TabIndex = 69;
             // 
-            // comboBox8
+            // comboBox6
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(448, 427);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(96, 21);
-            this.comboBox8.TabIndex = 70;
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Location = new System.Drawing.Point(158, 427);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(96, 21);
+            this.comboBox6.TabIndex = 68;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(14, 427);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(96, 21);
+            this.comboBox5.TabIndex = 67;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(452, 202);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(96, 21);
+            this.comboBox4.TabIndex = 66;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(303, 202);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(96, 21);
+            this.comboBox3.TabIndex = 65;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(163, 202);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(96, 21);
+            this.comboBox2.TabIndex = 64;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(14, 202);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(96, 21);
+            this.comboBox1.TabIndex = 63;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Turquoise;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.button1.Location = new System.Drawing.Point(451, 165);
+            this.button1.Name = "button1";
+            this.button1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.button1.Size = new System.Drawing.Size(96, 23);
+            this.button1.TabIndex = 71;
+            this.button1.Text = "Avail";
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // UCmachinelist
             // 
@@ -514,7 +514,6 @@
         private System.Windows.Forms.Button Machine7Button;
         private System.Windows.Forms.Button Machine6Button;
         private System.Windows.Forms.Button Machine5Button;
-        private System.Windows.Forms.Button Machine4Button;
         private System.Windows.Forms.Button Machine3Button;
         private System.Windows.Forms.Button Machine2Button;
         private System.Windows.Forms.Button Machine1Button;
@@ -543,5 +542,6 @@
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
